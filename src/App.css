@@ -7,7 +7,7 @@
 
 .home,
 .services,
-.products,
+.who,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -25,10 +25,10 @@
   font-size: 100px;
 }
 
-.products {
-  background-image: url("./components/images_for_css/img-1.jpg");
+.who {
+  background-image: url("./components/images_for_css/img-5.jpg");
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;

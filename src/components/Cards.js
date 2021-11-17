@@ -33,7 +33,7 @@ function Cards() {
               src="./images/img-4.jpg"
               text="Pick one of many goddess to make your favorite like Ganesha"
               label="The Indian adventure"
-              path="/welcome"
+              path="/getgoing"
             />
             <CardItems
               src="./images/img-8.jpg"
