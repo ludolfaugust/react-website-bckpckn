@@ -20,13 +20,14 @@
 
 .navbar-logo {
   color: #fff;
-  justify-self: start;
+  justify-content: space-between;
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
   display: flex;
   align-items: center;
+  width: 170px;
 }
 
 .fa-typo3 {
