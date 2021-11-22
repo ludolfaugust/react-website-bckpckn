@@ -29,6 +29,9 @@
   align-items: center;
   width: 170px;
 }
+.navbar-logo:hover {
+  transform: rotate(180deg);
+}
 
 .fa-typo3 {
   margin-left: 0.5rem;
