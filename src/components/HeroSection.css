@@ -63,6 +63,56 @@ video {
   margin: 6px;
 }
 
+.airplane {
+  width: 200px;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  transform: translate(-50vw, 0vw);
+
+  animation-name: logo-fly-in, logobump;
+  animation-duration: 4s, 5s;
+  animation-timing-function: ease-in-out, ease-in-out;
+  animation-iteration-count: 1, infinite;
+  animation-delay: 0s, 4.5s;
+  animation-fill-mode: both, none;
+
+  transition-timing-function: ease-in;
+
+  opacity: 0.5;
+}
+
+@keyframes logo-fly-in {
+  0% {
+    transform: translate(-60vw, 0);
+    opacity: 0.1;
+  }
+
+  100% {
+    transform: translate(0, 0);
+    opacity: 0.9;
+  }
+}
+
+@keyframes logobump {
+  0%,
+  100% {
+    transform: translate(0px, 0px);
+  }
+
+  25% {
+    transform: translate(0px, -72px);
+    transform: scale(1.5);
+  }
+
+  50% {
+    transform: translate(0px, 108px);
+  }
+
+  75% {
+    transform: translate(0px, -30px);
+  }
+}
+
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
     font-size: 70px;

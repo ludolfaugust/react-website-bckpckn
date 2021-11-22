@@ -32,6 +32,9 @@ function HeroSection() {
           Meet us
         </Button>
       </div>
+      <div>
+        <img src="./images/872480.svg" className="airplane" />
+      </div>
     </div>
   );
 }
