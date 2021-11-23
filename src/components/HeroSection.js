@@ -33,7 +33,7 @@ function HeroSection() {
         </Button>
       </div>
       <div>
-        <img src="./images/872480.svg" className="airplane" />
+        <img src="./images/872480.svg" className="airplane" alt="" />
       </div>
     </div>
   );
