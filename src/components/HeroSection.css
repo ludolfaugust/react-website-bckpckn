@@ -77,12 +77,12 @@ video {
   margin-bottom: 35px;
   transform: translate(-50vw, 0vw);
 
-  animation-name: logo-fly-in, logobump;
-  animation-duration: 4s, 5s;
-  animation-timing-function: ease-in-out, ease-in-out;
-  animation-iteration-count: 1, infinite;
-  animation-delay: 0s, 4.5s;
-  animation-fill-mode: both, none;
+  animation-name: logo-fly-in, logobump, logo-fly-out;
+  animation-duration: 4s, 5s, 4s;
+  animation-timing-function: ease-in-out, ease-in-out, ease-in-out;
+  animation-iteration-count: 1, 3, 1;
+  animation-delay: 0s, 4.5s, 15s;
+  animation-fill-mode: both, none, none;
 
   transition-timing-function: ease-in;
 
@@ -119,6 +119,18 @@ video {
 
   75% {
     transform: translate(0px, -10px);
+  }
+}
+
+@keyframes logo-fly-out {
+  0% {
+    transform: translate(0vw, 0);
+    opacity: 0.1;
+  }
+
+  100% {
+    transform: translate(60vw, 0);
+    opacity: 0.9;
   }
 }
 
