@@ -12,34 +12,52 @@ function Cards() {
             <CardItems
               src="./images/img-5.jpg"
               text="Discover India by Motorcycle - the great britsh Royal Enfield"
-              label="The Indian adventure"
-              path="/getgoing"
-            />
-            <CardItems
-              src="./images/img-6.jpg"
-              text="Discover different cultures and religions on you trip"
-              label="The Indian adventure"
+              label="Verrückte Sache"
               path="/who"
-            />
-          </ul>
-          <ul className="cards__items">
-            <CardItems
-              src="./images/img-3.jpg"
-              text="Enjoy the beauty of the nature in the so called Sundar Bans"
-              label="The Indian adventure"
-              path="/joinus"
-            />
-            <CardItems
-              src="./images/img-4.jpg"
-              text="Pick one of many goddess to make your favorite like Ganesha"
-              label="The Indian adventure"
-              path="/getgoing"
             />
             <CardItems
               src="./images/img-8.jpg"
               text="Explore the himalayan tracks and villages by motorcycle"
-              label="The Indian adventure"
-              path="/who"
+              label="Amazing"
+              path="/joinus"
+            />
+          </ul>
+          <ul className="cards__items">
+            <CardItems
+              src="./images/img-2.jpg"
+              text="Enjoy the beauty of the nature in the Himalayas"
+              label="Flexible"
+              path="/getgoing"
+            />
+            <CardItems
+              src="./images/img-4.jpg"
+              text="Pick one of many goddess to make your favorite like Ganesha"
+              label="CSS"
+              path="/"
+            />
+            <CardItems
+              src="./images/img-6.jpg"
+              text="Discover different cultures and religions on you trip"
+              label="Rocks"
+              path="/"
+            />
+            <CardItems
+              src="./images/img-6.jpg"
+              text="Discover different cultures and religions on you trip"
+              label="Rocks"
+              path="/"
+            />
+            <CardItems
+              src="./images/img-6.jpg"
+              text="Discover different cultures and religions on you trip"
+              label="Rocks"
+              path="/"
+            />
+            <CardItems
+              src="./images/img-6.jpg"
+              text="Discover different cultures and religions on you trip"
+              label="Rocks"
+              path="/"
             />
           </ul>
         </div>
