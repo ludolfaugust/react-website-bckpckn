@@ -6,7 +6,7 @@ import Footer from "../Footer";
 function Who() {
   return (
     <div>
-      <h1 className="who">WHO WE ARE</h1>
+      <h1 className="who">WHO YOU ARE</h1>
       <p
         style={{
           color: "GrayText",
@@ -16,7 +16,7 @@ function Who() {
           marginRight: "auto",
         }}
       >
-        This is who we are - have a close look
+        This is who we are - have a close look - closer!
       </p>
       <Cards />
       <Footer />
