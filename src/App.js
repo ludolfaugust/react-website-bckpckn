@@ -5,6 +5,7 @@ import Home from "./components/pages/Home";
 import GetGoing from "./components/pages/GetGoing";
 import Who from "./components/pages/Who";
 import Joinus from "./components/pages/Joinus";
+import Mapbox from "./components/pages/Mapbox";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/joinus" component={Joinus} />
         </Switch>
       </Router>
+      <Mapbox />
     </>
   );
 }
