@@ -9,7 +9,7 @@ function HeroSection() {
       <video src="/video/video-2.mp4" autoPlay muted />
       <div className="header-title">
         <h1 className="header-title-pack">PACK </h1>{" "}
-        <h1 className="header-title-your"> YOUR </h1>
+        <h1 className="header-title-your"> MY </h1>
         <h1 className="header-title-bags">BAGS</h1>
       </div>
       <div className="road-icon">
