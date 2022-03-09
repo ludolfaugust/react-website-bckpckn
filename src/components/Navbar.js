@@ -56,7 +56,7 @@ function Navbar() {
               </Link>
             </li>
 
-            <li>
+            {/* <li>
               <Link
                 to="/joinus"
                 className="nav-links-mobile"
@@ -64,7 +64,7 @@ function Navbar() {
               >
                 Join us
               </Link>
-            </li>
+            </li> */}
           </ul>
           {button && <Button buttonStyle="btn--outline">Join us</Button>}
         </div>

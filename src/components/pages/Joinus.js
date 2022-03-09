@@ -6,7 +6,7 @@ import Cards from "../Cards";
 function Joinus() {
   return (
     <div>
-      <h1 className="sign-up">JOIN US</h1>
+      <h1 className="join-us">JOIN US</h1>
       <Cards />
       <Footer />
     </div>

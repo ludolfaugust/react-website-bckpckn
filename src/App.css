@@ -6,9 +6,9 @@
 }
 
 .home,
-.services,
+.getgoing,
 .who,
-.sign-up {
+.join-us {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -16,7 +16,7 @@
   font-size: 3rem;
 }
 
-.services {
+.getgoing {
   background-image: url("./components/images_for_css/img-2.jpg");
   background-position: center;
   background-size: cover;
@@ -34,7 +34,7 @@
   font-size: 100px;
 }
 
-.sign-up {
+.join-us {
   background-image: url("./components/images_for_css/img-8.jpg");
   background-position: center;
   background-size: cover;

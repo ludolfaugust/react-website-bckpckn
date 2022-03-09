@@ -6,7 +6,7 @@ import Footer from "../Footer";
 function GetGoing() {
   return (
     <div>
-      <h1 className="services">GET GOING</h1>
+      <h1 className="getgoing">GET GOING</h1>
       <Cards />
       <Footer />
     </div>

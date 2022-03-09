@@ -41,24 +41,6 @@ function Cards() {
               label="Rocks"
               path="/"
             />
-            <CardItems
-              src="./images/img-6.jpg"
-              text="Discover different cultures and religions on you trip"
-              label="Rocks"
-              path="/"
-            />
-            <CardItems
-              src="./images/img-6.jpg"
-              text="Discover different cultures and religions on you trip"
-              label="Rocks"
-              path="/"
-            />
-            <CardItems
-              src="./images/img-6.jpg"
-              text="Discover different cultures and religions on you trip"
-              label="Rocks"
-              path="/"
-            />
           </ul>
         </div>
       </div>

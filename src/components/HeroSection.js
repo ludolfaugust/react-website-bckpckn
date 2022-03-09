@@ -6,7 +6,7 @@ import "../App.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/video/video-2.mp4" autoPlay loop muted />
+      <video src="/video/video-2.mp4" autoPlay muted />
       <div className="header-title">
         <h1 className="header-title-pack">PACK </h1>{" "}
         <h1 className="header-title-your"> YOUR </h1>
@@ -29,7 +29,7 @@ function HeroSection() {
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
-          Meet us
+          Join us
         </Button>
       </div>
       <div>
