@@ -49,14 +49,20 @@ function Cards() {
             />
             <CardItems
               src="./images/img-6.jpg"
-              text="Discover different cultures and religions on you trip"
-              label="Rocks"
+              text="Discover the world beyond"
+              label="the sky is no limit"
               path="/"
             />
             <CardItems
               src="./images/img-6.jpg"
-              text="Discover different cultures and religions on you trip"
-              label="Rocks"
+              text="Discover the world beyond"
+              label="the sky is no limit"
+              path="/"
+            />
+            <CardItems
+              src="./images/img-6.jpg"
+              text="Discover the world beyond"
+              label="the sky is no limit"
               path="/"
             />
           </ul>

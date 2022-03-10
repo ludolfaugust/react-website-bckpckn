@@ -6,8 +6,8 @@ import Footer from "../Footer";
 function Who() {
   return (
     <div>
-      <h1 className="who">WHO YOU ARE</h1>
-      <p
+      <h1 className="who">WHO WE ARE - WHERE WE TRAVEL</h1>
+      <h2
         style={{
           color: "GrayText",
           display: "flex",
@@ -16,8 +16,9 @@ function Who() {
           marginRight: "auto",
         }}
       >
-        This is who we are - have a close look - closer!
-      </p>
+        This is who we are - have a close look - closer! We are working with the
+        best travel agencies all over India!
+      </h2>
       <Cards />
       <Footer />
     </div>
