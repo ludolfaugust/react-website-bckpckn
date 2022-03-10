@@ -59,12 +59,6 @@ function Cards() {
               label="the sky is no limit"
               path="/"
             />
-            <CardItems
-              src="./images/img-6.jpg"
-              text="Discover the world beyond"
-              label="the sky is no limit"
-              path="/"
-            />
           </ul>
         </div>
       </div>
