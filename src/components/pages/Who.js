@@ -6,7 +6,7 @@ import Footer from "../Footer";
 function Who() {
   return (
     <div>
-      <h1 className="who">WHO YOU ARE - WHAT WE TRAVEL</h1>
+      <h1 className="who">WHO WE ARE - WHERE WE TRAVEL</h1>
       <p
         style={{
           color: "GrayText",
